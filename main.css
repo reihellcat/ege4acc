@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo|Lobster');
 * {
 	box-sizing: border-box;
-	color: #212121;
+	color: #9999FF;
 	margin: 0;
 	padding: 0;
 	font-family: 'Arimo', Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -21,7 +21,7 @@ a::after {
 	height: 1px;
 	bottom: 0;
 	left: 0;
-	background-color: #333;
+	background-color: #9999FF;
 	-webkit-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
@@ -70,6 +70,7 @@ a:hover::after {
 	font-size: 22px;
 	text-align: center;
 	display: none;
+	border: 5px;
 }
 .button-wrapper {
 	position: relative;
